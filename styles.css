@@ -1,6 +1,19 @@
+h1 {
+  font-family:Verdana;
+}
 h2 {
+  font-family:Verdana;
   color:orange;
   padding:10px;
+}
+h4 {
+  font-family:Verdana;
+}
+h5 {
+  font-family:Verdana;
+}
+h5 {
+  font-family:Verdana
 }
 p {
   font-family: Segoe UI;
