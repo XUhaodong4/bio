@@ -1,13 +1,14 @@
 h2 {
-  color:orange
-  padding:10px
+  color:orange;
+  padding:10px;
 }
 p {
-  font-family: Segoe UI
+  font-family: Segoe UI;
+  padding:5px;
 }
 pre {
-  font-family:Segoe UI
+  font-family:Segoe UI;
 }
 li {
-  font-family:Segoe UI
+  font-family:Segoe UI;
 }
