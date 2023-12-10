@@ -18,7 +18,9 @@
         .center{display: block; margin-left:auto; margin-right: auto;width:60%;}
         .header{padding: 15px;text-align: center;}
         .topnav{text-align: center;}
-        .column{float: left;padding:100px;}
+        .column{float: left;}
+        .column.side{width:20%;}
+        .column.middle{width:60%;}
         .footer{text-align: center;}
         .row::after{content:"";display:table;clear:both}
         @media screen and (max-width:600px){.column.side,.column.middle{width:100%;}}
@@ -40,7 +42,10 @@
 <br>
 <hr>
 <br>
-<div class="column">
+<div class="row">
+<div class="column side">
+</div>
+<div class="column middle">
 <h2 id="1">About me</h2>
 <p style="font-family:Segoe UI;" title="Self-Introduction;" class="pad"> I am originally from <a href="http://www.lanxi.gov.cn/" title='Home city' style="color: black;"> Lanxi</a> 
     , Zhejiang Province, China, whose city flower is orchid &amp; city tree is camphor. The city is famous for 
@@ -116,6 +121,9 @@ Microplastics | Plastic pollution | Marine environment issues | Marine science |
     Kashiwanoha 5-1-5<br>
     Kashiwa, Chiba, Japan
 </address>
+</div>
+<div class="column side">
+</div>
 </div>
 <div class="footer">
 <h5>Updated on 10 Dec, 2023</h5>
