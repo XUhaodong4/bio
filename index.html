@@ -21,6 +21,7 @@
         .column.side{width:25%;}
         .column.middle{width:75%;}
         .footer{text-align: center;}
+        .row::after{content:"";display:table;clear:both}
         @media screen and (max-width:600px){.column.side,.column.middle{width:100%;}}
     </style>
 </head>
@@ -40,9 +41,8 @@
 <br>
 <hr>
 <br>
+<div class="row">
 <div class="column middle">
-
-
 <h2 id="1">About me</h2>
 <p style="font-family:Segoe UI;" title="Self-Introduction;" class="pad"> I am originally from <a href="http://www.lanxi.gov.cn/" title='Home city' style="color: black;"> Lanxi</a> 
     , Zhejiang Province, China, whose city flower is orchid &amp; city tree is camphor. The city is famous for 
@@ -119,6 +119,7 @@ Microplastics | Plastic pollution | Marine environment issues | Marine science |
     Kashiwa, Chiba, Japan
 </address>
 <h5>Updated on 10 Dec, 2023</h5>
+</div>
 </div>
 </body>
 </html>
